@@ -1,0 +1,8 @@
+query findBooksPublishedAfter($date: String!) {
+    findBooksPublishedAfter(date: $date) {
+        id
+        title
+        author
+        publishedDate
+    }
+}
